@@ -19,7 +19,6 @@ function App() {
   }
   return (
     <center className="calculator">
-      {/* <h2>Caluclator</h2> */}
       <Input calValue={calValue}></Input>
       <Button handleBtnClick={handleBtnClick}></Button>
     </center>
